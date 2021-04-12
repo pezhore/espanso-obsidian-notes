@@ -12,6 +12,9 @@ matches:
 
   - trigger: ":change"
     replace: "🚨"
+  
+  - trigger: ":int"
+    replace: "☐"
 
   - trigger: ":budding"
     replace: "[[🌿 Budding]]"
