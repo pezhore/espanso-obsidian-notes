@@ -50,6 +50,9 @@ matches:
   - trigger: "header-exp"
     replace: "### $|$"
 
+  - trigger: ":base"
+    replace: "♦︎"
+    
   - trigger: ":mile"
     replace: "Ⓜ - ☐ $|$"
 
