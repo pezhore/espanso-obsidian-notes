@@ -42,7 +42,7 @@ matches:
     replace: "### Title"
 
   - trigger: ":mile"
-    replace: "[[Ⓜ - 🗙 Title]]"
+    replace: "Ⓜ - 🗙 Title"
 
   - trigger: "mile-exp"
     replace: |
