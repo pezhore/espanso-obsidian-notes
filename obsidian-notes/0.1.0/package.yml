@@ -6,7 +6,165 @@ parent: default
 matches:
   - trigger: ":done"
     replace: "✅"
+
   - trigger: ":prog"
     replace: "🚧"
+
   - trigger: ":change"
     replace: "🚨"
+
+  - trigger: "ever-exp"
+    replace: |
+             State: [[🌱 Seedling]]
+
+             Associations:
+
+             ### Notes
+             -
+
+  - trigger: ":ready"
+    replace: "Ready to be Recorded"
+
+  - trigger: ":goal"
+    replace: "⛳️ - 🗙 $|$"
+
+  - trigger: "goal-exp"
+    replace: |
+             Associations: [[Goal]]
+
+             ### Notes
+             -
+
+             ### Milestones
+             -
+
+  - trigger: "header-exp"
+    replace: "### Title"
+
+  - trigger: ":mile"
+    replace: "[[Ⓜ - 🗙 Title]]"
+
+  - trigger: "mile-exp"
+    replace: |
+             Associations: [[Milestones]]
+
+             ### Notes
+             -
+
+             ### Intentions
+             -
+  - trigger: "misc-exp"
+    replace: |
+             Associations:
+
+             ### Notes
+             -
+
+  - trigger: "morn-exp"
+    replace: |
+             Associations: [[Morning Pages]]
+
+             Associated Comments/Pages
+             -
+
+  - trigger: ":re-int"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y - 🗙"
+
+  - trigger: ":re-task"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y Misc - 🗙"
+
+  - trigger: "rsc-exp"
+    replace: |
+             ### Metadata
+
+             - Associations:
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+  - trigger: "rsc-article"
+    replace: |
+             ### Metadata
+
+             - Associations: [[Resource]] [[Article]]
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+
+  - trigger: "rsc-book"
+    replace: |
+             ### Metadata
+
+             - Associations: [[Resource]] [[Book]]
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+
+  - trigger: "rsc-course"
+    replace: |
+             ### Metadata
+
+             - Associations: [[Resource]] [[Course]]
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+
+  - trigger: "rsc-pres"
+    replace: |
+             ### Metadata
+
+             - Associations: [[Resource]] [[Presentation]]
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+
+  - trigger: "rsc-video"
+    replace: |
+             ### Metadata
+
+             - Associations: [[Resource]] [[video]]
+
+             - Author:
+
+             - Link:
+
+             ### Notes
+
+             -
+
+  - trigger: ":todo"
+    replace: "🗙"
