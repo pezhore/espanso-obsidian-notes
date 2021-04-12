@@ -13,6 +13,12 @@ matches:
   - trigger: ":change"
     replace: "🚨"
 
+  - trigger: ":budding"
+    replace: "[[🌿 Budding]]"
+
+  - trigger: ":evergreen"
+    replace: "[[🌳 Evergreen]]"
+    
   - trigger: "ever-exp"
     replace: |
              State: [[🌱 Seedling]]
@@ -26,7 +32,7 @@ matches:
     replace: "Ready to be Recorded"
 
   - trigger: ":goal"
-    replace: "⛳️ - 🗙 $|$"
+    replace: "⛳️ - ☐ $|$"
 
   - trigger: "goal-exp"
     replace: |
@@ -42,7 +48,7 @@ matches:
     replace: "### $|$"
 
   - trigger: ":mile"
-    replace: "Ⓜ - 🗙 $|$"
+    replace: "Ⓜ - ☐ $|$"
 
   - trigger: "mile-exp"
     replace: |
@@ -73,7 +79,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%m/%d/%Y - 🗙"
+          format: "%m/%d/%Y - ☐"
 
   - trigger: ":re-task"
     replace: "{{mydate}}"
@@ -81,7 +87,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%m/%d/%Y Misc - 🗙"
+          format: "%m/%d/%Y Misc - ☐"
 
   - trigger: "rsc-exp"
     replace: |
@@ -167,4 +173,4 @@ matches:
              -
 
   - trigger: ":todo"
-    replace: "🗙"
+    replace: "☐"
