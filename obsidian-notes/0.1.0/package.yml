@@ -52,7 +52,7 @@ matches:
 
   - trigger: ":base"
     replace: "♦︎"
-    
+
   - trigger: ":mile"
     replace: "Ⓜ - ☐ $|$"
 
@@ -65,6 +65,23 @@ matches:
 
              ### Intentions
              -
+
+  - trigger: "int-exp"
+    replace: |
+             ### Clocks
+
+             - Estimate:
+
+             - Start Time:
+
+             - End Time:
+
+             ### Result (total time and explain if I go over my estimate)
+
+             ### Notes
+
+             - 
+
   - trigger: "misc-exp"
     replace: |
              Associations:
