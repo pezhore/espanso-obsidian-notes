@@ -39,7 +39,7 @@ matches:
              -
 
   - trigger: "header-exp"
-    replace: "### Title"
+    replace: "### $|$"
 
   - trigger: ":mile"
     replace: "Ⓜ - 🗙 $|$"
