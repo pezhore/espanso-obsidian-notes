@@ -4,5 +4,9 @@ name: obsidian-notes
 parent: default
 
 matches:
-  - trigger: ":hw"
-    replace: "hello world"
+  - trigger: ":done"
+    replace: "✅"
+  - trigger: ":prog"
+    replace: "🚧"
+  - trigger: ":change"
+    replace: "🚨"
