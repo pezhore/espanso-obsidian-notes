@@ -18,7 +18,7 @@ matches:
 
   - trigger: ":evergreen"
     replace: "[[🌳 Evergreen]]"
-    
+
   - trigger: "ever-exp"
     replace: |
              State: [[🌱 Seedling]]
@@ -65,6 +65,14 @@ matches:
 
              ### Notes
              -
+
+  - trigger: ":morning"
+    replace: "Morning Pages ({{mydate}})"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m-%d-%Y"
 
   - trigger: "morn-exp"
     replace: |
