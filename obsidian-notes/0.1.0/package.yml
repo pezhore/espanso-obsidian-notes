@@ -48,7 +48,7 @@ matches:
              -
 
   - trigger: "header-exp"
-    replace: "### $|$"
+    replace: "#### $|$"
 
   - trigger: ":base"
     replace: "♦︎"
