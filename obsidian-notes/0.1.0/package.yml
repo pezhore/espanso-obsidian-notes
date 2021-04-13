@@ -228,3 +228,17 @@ matches:
              ### Interruptions
 
              - $|$
+  
+  - trigger: ":meeting"
+    replace: "Meeting - $|$"
+  
+  - trigger: "meet-exp"
+    replace: |
+             Associations: [[Meetings]]
+             
+             ### Attendees
+
+             
+             ### Notes
+
+             - $|$
