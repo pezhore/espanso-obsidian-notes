@@ -236,9 +236,16 @@ matches:
     replace: |
              Associations: [[Meetings]]
              
+             {{mydate}}
+
              ### Attendees
 
-             
+
              ### Notes
 
              - $|$
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m-%d-%Y"
