@@ -23,7 +23,7 @@ matches:
     replace: |
              State: [[🌱 Seedling]]
 
-             Associations:
+             Associations: $|$
 
              ### Notes
              
@@ -86,7 +86,7 @@ matches:
 
   - trigger: "misc-exp"
     replace: |
-             Associations:
+             Associations: [[Misc Task]]
 
              ### Notes
 
