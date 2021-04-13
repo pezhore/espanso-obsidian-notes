@@ -213,7 +213,7 @@ matches:
   - trigger: ":todo"
     replace: "☐"
   
-  - trigger: ":interupt"
+  - trigger: ":inter"
     replace: "Interruptions ({{mydate}})"
     vars:
       - name: mydate
