@@ -12,9 +12,6 @@ matches:
 
   - trigger: ":change"
     replace: "🚨"
-  
-  - trigger: ":int"
-    replace: "☐"
 
   - trigger: ":budding"
     replace: "[[🌿 Budding]]"
@@ -215,3 +212,19 @@ matches:
 
   - trigger: ":todo"
     replace: "☐"
+  
+  - trigger: ":interupt"
+    replace: "Interruptions ({{mydate}})"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m-%d-%Y"
+  
+  - trigger: "inter-exp"
+    replace: |
+             Associations: [[Interruptions]]
+
+             ### Notes
+
+             - $|$
