@@ -214,7 +214,7 @@ matches:
     replace: "☐"
   
   - trigger: ":inter"
-    replace: "Interruptions ({{mydate}})"
+    replace: "Interruptions {{mydate}}"
     vars:
       - name: mydate
         type: date
