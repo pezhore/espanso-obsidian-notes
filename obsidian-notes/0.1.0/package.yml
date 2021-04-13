@@ -200,7 +200,7 @@ matches:
     replace: |
              ### Metadata
 
-             - Associations: [[Resource]] [[video]]
+             - Associations: [[Resource]] [[Video]]
 
              - Author: $|$
 
@@ -225,6 +225,6 @@ matches:
     replace: |
              Associations: [[Interruptions]]
 
-             ### Notes
+             ### Interruptions
 
              - $|$
