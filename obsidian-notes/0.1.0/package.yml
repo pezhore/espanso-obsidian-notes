@@ -61,10 +61,10 @@ matches:
              Associations: [[Milestones]]
 
              ### Notes
-             -
+             - $|$
 
              ### Intentions
-             -
+             - 
 
   - trigger: "int-exp"
     replace: |
@@ -80,14 +80,14 @@ matches:
 
              ### Notes
 
-             - 
+             - $|$
 
   - trigger: "misc-exp"
     replace: |
              Associations:
 
              ### Notes
-             -
+             - $|$
 
   - trigger: ":morning"
     replace: "Morning Pages ({{mydate}})"
@@ -100,6 +100,9 @@ matches:
   - trigger: "morn-exp"
     replace: |
              Associations: [[Morning Pages]]
+
+             Thoughts:
+             $|$
 
              Associated Comments/Pages
              -
@@ -124,7 +127,7 @@ matches:
     replace: |
              ### Metadata
 
-             - Associations:
+             - Associations: $|$
 
              - Author:
 
@@ -139,7 +142,7 @@ matches:
 
              - Associations: [[Resource]] [[Article]]
 
-             - Author:
+             - Author: $|$
 
              - Link:
 
@@ -153,7 +156,7 @@ matches:
 
              - Associations: [[Resource]] [[Book]]
 
-             - Author:
+             - Author: $|$
 
              - Link:
 
@@ -167,7 +170,7 @@ matches:
 
              - Associations: [[Resource]] [[Course]]
 
-             - Author:
+             - Author: $|$
 
              - Link:
 
@@ -181,7 +184,7 @@ matches:
 
              - Associations: [[Resource]] [[Presentation]]
 
-             - Author:
+             - Author: $|$
 
              - Link:
 
@@ -195,7 +198,7 @@ matches:
 
              - Associations: [[Resource]] [[video]]
 
-             - Author:
+             - Author: $|$
 
              - Link:
 
